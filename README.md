@@ -1,8 +1,3 @@
----
-title: "README: Ohnologues vs BioMart"
-author: "Hussein"
-output: html_document
----
 
 # Ohnologues vs BioMart: A Comparative Analysis of Gene Paralogues
 
