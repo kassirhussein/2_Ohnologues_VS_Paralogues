@@ -5,11 +5,11 @@
 
 # Ohnologues vs BioMart: A Comparative Analysis of Gene Paralogues
 
-## 📘 Overview
+## Overview
 
 This project compares paralogue gene sets identified via **BioMart** and **ohnologues** (resulting from ancient whole-genome duplications) using data-driven visualizations and gene similarity thresholds. It investigates how these paralogues overlap, how they relate to essentiality (via the **FUSIL** dataset), and how similarity thresholds influence paralogue detection.
 
-## 📁 Data Sources
+## Data Sources
 
 - **BioMart Paralogues**  
   Retrieved from Ensembl BioMart. Contains pairwise paralogue relationships and percentage identity.
@@ -23,7 +23,7 @@ This project compares paralogue gene sets identified via **BioMart** and **ohnol
 - **FUSIL Dataset**  
   Provides gene essentiality classifications in mammals.
 
-## 🧪 Methodology
+## Methodology
 
 1. **Data Loading**
    - Loads all required datasets: FUSIL, BioMart paralogues, ohnologues, and the protein-coding gene list.
@@ -44,7 +44,7 @@ This project compares paralogue gene sets identified via **BioMart** and **ohnol
      - In both
      - In neither
 
-## 📊 Output
+## Output
 
 The notebook generates:
 - Venn diagrams of gene overlap per threshold
@@ -53,14 +53,7 @@ The notebook generates:
 
 These visualizations help highlight how strict similarity thresholds affect paralogue detection and how ohnologues differ from BioMart's paralogues.
 
-## 💡 Motivation
-
-Understanding differences between duplication annotations (ohnologues vs general paralogues) can help:
-- Interpret gene essentiality
-- Infer evolutionary history
-- Design gene-based screens or knockout studies
-
-## ▶️ How to Run
+## How to Run
 
 1. Install required libraries:
 
